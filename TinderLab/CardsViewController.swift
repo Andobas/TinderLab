@@ -9,17 +9,36 @@
 import UIKit
 
 class CardsViewController: UIViewController {
-
+    
+   
+    @IBOutlet weak var ryanImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        let myPanGestureRecognizer = UIPanGestureRecognizer(target: self, action: "myPanAction:")
+        
+        myPanGestureRecognizer.minimumNumberOfTouches = 1
+        myPanGestureRecognizer.maximumNumberOfTouches = 1
+        
+        ryanImageView.addGestureRecognizer(myPanGestureRecognizer)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func myPanAction(recognizer: UIPanGestureRecognizer) {
+        if ((recognizer.state != UIGestureRecognizerState.Ended) &&
+            (recognizer.state != UIGestureRecognizerState.Failed)) {
+            recognizer.view?.center = recognizer.locationInView(recognizer.view?.superview)
+        }
+    }
+    
+    
     
 
     /*
