@@ -12,6 +12,8 @@
 		67F9EFBB1CA4D9400037BEBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67F9EFBA1CA4D9400037BEBB /* Assets.xcassets */; };
 		67F9EFBE1CA4D9400037BEBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F9EFBC1CA4D9400037BEBB /* LaunchScreen.storyboard */; };
 		67F9EFC61CA4DA0A0037BEBB /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F9EFC51CA4DA0A0037BEBB /* CardsViewController.swift */; };
+		67F9EFC81CA4E7FC0037BEBB /* DraggableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67F9EFC71CA4E7FC0037BEBB /* DraggableImageView.xib */; };
+		67F9EFCA1CA4E9970037BEBB /* DraggableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F9EFC91CA4E9970037BEBB /* DraggableImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		67F9EFBD1CA4D9400037BEBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67F9EFBF1CA4D9400037BEBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67F9EFC51CA4DA0A0037BEBB /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		67F9EFC71CA4E7FC0037BEBB /* DraggableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DraggableImageView.xib; sourceTree = "<group>"; };
+		67F9EFC91CA4E9970037BEBB /* DraggableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				67F9EFBC1CA4D9400037BEBB /* LaunchScreen.storyboard */,
 				67F9EFBF1CA4D9400037BEBB /* Info.plist */,
 				67F9EFC51CA4DA0A0037BEBB /* CardsViewController.swift */,
+				67F9EFC71CA4E7FC0037BEBB /* DraggableImageView.xib */,
+				67F9EFC91CA4E9970037BEBB /* DraggableImageView.swift */,
 			);
 			path = TinderLab;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				67F9EFBE1CA4D9400037BEBB /* LaunchScreen.storyboard in Resources */,
 				67F9EFBB1CA4D9400037BEBB /* Assets.xcassets in Resources */,
+				67F9EFC81CA4E7FC0037BEBB /* DraggableImageView.xib in Resources */,
 				67F9EFB91CA4D9400037BEBB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67F9EFC61CA4DA0A0037BEBB /* CardsViewController.swift in Sources */,
+				67F9EFCA1CA4E9970037BEBB /* DraggableImageView.swift in Sources */,
 				67F9EFB41CA4D9400037BEBB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
